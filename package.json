@@ -1,0 +1,26 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+      "start": "lite-server",
+      "test": "jest",
+      "sample_tests": "jest --forceExit --runInBand --verbose --ci --testResultsProcessor=\"jest-junit\" -- main.test.js",
+      "main_tests": "jest --forceExit --runInBand --verbose --ci --testResultsProcessor=\"jest-junit\" -- main.test.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.23.0",
+      "@babel/preset-env": "^7.22.20",
+      "babel-jest": "^29.7.0",
+      "jest": "^27.5.1",
+      "jest-junit": "^13.0.0",
+      "supertest": "^6.2.2",
+      "lite-server": "^2.6.1"
+    },
+    "dependencies": {
+      "node-fetch": "^2.7.0"
+    }
+  }
